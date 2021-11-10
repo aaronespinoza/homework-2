@@ -13,6 +13,7 @@
 /* Element Selectors */
 body {
     background-color:white;
+    
 }
 /* Class Selectors*/
 header {
@@ -26,8 +27,9 @@ header {
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display:inline-block;
+    font-size: xx-large;
+    
     flex:1;
     
 }
@@ -44,6 +46,7 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    
 }
 
 header nav ul {
@@ -109,11 +112,13 @@ main {
     flex-wrap: wrap;
     margin: 0 auto;
     display: grid;
-    width: 95%;
+    /*width: 95%;*/
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 15px;
     justify-content: center;
-    flex:1;
+    flex:1 ;
+    
+    
 
       
 }
@@ -164,6 +169,10 @@ footer {
     flex-direction: row;
     justify-content: center;
     background-color: var(--blue);
+    
+    
+    
+    
     
 }
 #contact-me {
