@@ -82,6 +82,18 @@ p {
     flex:2;
     box-sizing: border-box;
 }
+.workImage:hover {
+    transform: scale(1.2);
+    flex:1;
+}
+
+aside {
+    text-align:center;
+    flex:1;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    justify-content: center;
+}
 
 main {
     
