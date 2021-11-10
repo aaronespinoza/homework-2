@@ -1,5 +1,7 @@
 :root {
     --red:rgb(240, 6, 6);
+    --tan: rgb(210, 180, 140);
+    --blue: rgb(176, 224, 230);
 }
 
 /* Universal Selector*/
@@ -10,17 +12,17 @@
 }
 /* Element Selectors */
 body {
-    background-color: #d9dcd6;
+    background-color:white;
 }
 /* Class Selectors*/
 header {
     padding: 20px;
-    font-family: monospace;
-    background-color:rgb(249, 255, 249);
-    color: greenyellow;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:var(--blue);
+    color: var(--tan);
     display: flex;
     flex:1;
-    margin-right: 10px;
+    margin-right: 1px;
 }
 
 header h1 {
@@ -54,7 +56,7 @@ header nav ul li {
 }
 
 a {
-    color: greenyellow;
+    color: var(--tan);
     text-decoration: none;
 }
 
@@ -63,6 +65,7 @@ a {
 p {
     font-size: 16px;
     flex:1 4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -83,7 +86,7 @@ body div {
     font-size: x-large;
     font-weight: 700;
     justify-content: center;
-    color: darksalmon;
+    color: var(--tan);
 
 }
 
@@ -95,6 +98,9 @@ aside {
     border-bottom: 2px solid black;
     justify-content: center;
     
+}
+aside h1 {
+    color: var(--tan);
 }
 
 main {
@@ -122,16 +128,17 @@ section {
       
 }
 section:hover {
-    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+    box-shadow: inset 0px 0px 8px var(--blue), 0 0 15px rgb(137, 222, 233);
     transform: scale(1.05);
 }
 
 main h2 {
     position: relative;
-    background-color: gold;
+    
+    background-color: var(--blue);
     border-radius:0 0 5px 5px;
     text-align: center;
-    color: darkorchid;
+    color: var(--tan);
 }
 
 .workImage {
@@ -156,11 +163,12 @@ footer {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(238, 224, 252);
+    background-color: var(--blue);
     
 }
 #contact-me {
-    color:dodgerblue;
+    color:var(--tan);
+    
 }
 
 footer ul li {
